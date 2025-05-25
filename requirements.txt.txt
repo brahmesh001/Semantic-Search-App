@@ -1,0 +1,79 @@
+// ===========================
+// 📦 requirements.txt (Python Backend)
+// ===========================
+annotated-types==0.7.0
+anyio==4.9.0
+certifi==2025.4.26
+charset-normalizer==3.4.2
+click==8.2.1
+colorama==0.4.6
+fastapi==0.115.12
+filelock==3.18.0
+fsspec==2025.5.1
+h11==0.16.0
+huggingface-hub==0.32.0
+idna==3.10
+Jinja2==3.1.6
+joblib==1.5.1
+MarkupSafe==3.0.2
+mpmath==1.3.0
+networkx==3.4.2
+numpy==2.2.6
+packaging==25.0
+pillow==11.2.1
+pydantic==2.11.5
+pydantic_core==2.33.2
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.3
+safetensors==0.5.3
+scikit-learn==1.6.1
+scipy==1.15.3
+sentence-transformers==4.1.0
+setuptools==80.8.0
+sniffio==1.3.1
+starlette==0.46.2
+sympy==1.14.0
+threadpoolctl==3.6.0
+tokenizers==0.21.1
+torch==2.7.0
+tqdm==4.67.1
+transformers==4.52.3
+typing-inspection==0.4.1
+typing_extensions==4.13.2
+urllib3==2.4.0
+uvicorn==0.34.2
+
+
+// ===========================
+// 📦 package.json (React/Next.js Frontend)
+// ===========================
+{
+
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-radio-group": "^1.3.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "tw-animate-css": "^1.3.0",
+    "typescript": "^5"
+  }
+}
